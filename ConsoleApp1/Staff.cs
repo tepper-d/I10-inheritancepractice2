@@ -34,7 +34,6 @@ namespace ConsoleApp1
             this.staffID = staffID;
         }
 
-
         //ii. Staff getter & setter
         public string FirstName { get; set; } = "Snoop";
         public string LastName { get; set; } = "Dog";

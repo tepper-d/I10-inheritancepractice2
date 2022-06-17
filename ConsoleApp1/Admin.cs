@@ -33,7 +33,6 @@ namespace ConsoleApp1
             this.adminID = staffID;
         }
 
-
         //Admin getter & setter
         //Tepper, 16JUN2022
         public string FirstName { get; set; } = "Snoop";

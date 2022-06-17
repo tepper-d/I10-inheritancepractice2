@@ -34,8 +34,7 @@ namespace ConsoleApp1
             this.facultyID = facultyID;
         }
 
-
-        //11. Faculty getter & setter
+        //ii. Faculty getter & setter
         //Tepper, 16JUN2022
         public string FirstName { get; set; } = "Snoop";
         public string LastName { get; set; } = "Dog";
