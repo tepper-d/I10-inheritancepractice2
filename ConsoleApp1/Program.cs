@@ -38,6 +38,7 @@ student2.PersonWrite();
 
 
 //faculty --Tepper, 16JUN2022
+Console.WriteLine(" "); 
 Console.WriteLine("Retiring faculty members: ");
 
 var faculty1 = new Faculty()
@@ -59,6 +60,7 @@ faculty2.PersonWrite();
 
 
 //Admin --Tepper, 16JUN2022
+Console.WriteLine(" "); 
 Console.WriteLine("These are temp Admin:");
 
 var admin1 = new Admin()
@@ -80,6 +82,7 @@ admin2.PersonWrite();
 
 
 //Staff --Tepper, 16JUN2022
+Console.WriteLine(" "); 
 Console.WriteLine("These are new hourly staff:");
 
 var staff1 = new Staff()
