@@ -102,5 +102,24 @@ staff2.Email = "vanjie.mateo@staff.email.me";
 staff2.StaffID = "STF852963";
 staff2.PersonWrite();
 
+//People Misc --Tepper, 16JUN2022
+Console.WriteLine(" ");
+Console.WriteLine("Current Consultants");
+
+var person1 = new Person()
+{
+    FirstName = "Dominique",
+    LastName = "Tepper",
+    Email = "dominique.tepper@consultant.me",
+};
+person1.PersonWrite();
+
+
+Person person2 = new Person();
+person2.FirstName = "Patrick";
+person2.LastName = "McKee";
+person2.Email = "patrick.mckee@consultant.me";
+person2.PersonWrite();
+
 Console.WriteLine(" "); 
 Console.WriteLine("-------------------- End of Report --------------------");

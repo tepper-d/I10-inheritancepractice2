@@ -14,7 +14,7 @@ namespace ConsoleApp1
  *      Method
  *          a. PersonWrite
  * ********************************* Tepper, 16JUN2022 */
-    public class Person
+    public class Person : IPerson
     {
         public string firstName;
         public string lastName;
