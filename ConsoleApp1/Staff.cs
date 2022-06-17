@@ -6,43 +6,42 @@ using System.Threading.Tasks;
 
 
 /*********************************************************
- * CIS 123: Introduction to Object-Oriented Programming
- * Module 10: Inheritance Assignment (Individual)
- * Dominique Tepper, 16JUN2022
- * 
- * 1. Complete the base and derived classes:
- *      a.   Person       base
- *      b/2. Student      derived
- *      c/3. Faculty      derived
- *      d/4. Admin        derived
- *      e/5. Staff        derived
- * ******************************************************/
+* CIS 123: Introduction to Object-Oriented Programming
+* Module 10: Inheritance Assignment (Individual)
+* Dominique Tepper, 16JUN2022
+* 
+* 1-E/5. Complete the derived Staff Class
+*          i. staffID       private string
+*         ii. use a getter and setter
+*        iii. define 2 constructors
+*         iv. StaffWrite    method
+* ********************************* Tepper, 16JUN2022 */
 
 namespace ConsoleApp1
 {
     public class Staff : IPerson
     {
 
-        //private string
+        //i. private string
         private string staffID;
 
-        //constructor 1
+        //iii. constructor 1
         public Staff() { }
 
-        //constructor with 1 parameter
+        //iii. constructor with 1 parameter
         public Staff(string staffID)
         {
             this.staffID = staffID;
         }
 
 
-        //class getter & setter
+        //ii. Staff getter & setter
         public string FirstName { get; set; } = "Snoop";
         public string LastName { get; set; } = "Dog";
         public string Email { get; set; } = "snoop.dog@staff.email.me";
         public string StaffID { get; set; } = "STF234567";
 
-        //StaffWrite() method
+        //iv. StaffWrite() method
         public void PersonWrite()
         {
             Console.WriteLine($"{StaffID} is {FirstName} {LastName} and their email is {Email}.");

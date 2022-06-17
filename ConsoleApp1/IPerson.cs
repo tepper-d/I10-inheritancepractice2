@@ -9,23 +9,31 @@ using System.Threading.Tasks;
  * Module 10: Inheritance Assignment (Individual)
  * Dominique Tepper, 16JUN2022
  * 
- * 1. Complete the base and derived classes:
- *      a.   Person       base
- *      b/2. Student      derived
- *      c/3. Staff      derived
- *      d/4. Staff        derived
- *      e/5. Staff        derived
- * ******************************************************/
+ *      
+ * 1-A Person  properties
+ *          i. firstName   string
+ *         ii. lastName    string
+ *        iii. email       string    
+ *      Method
+ *         iv. PersonWrite
+ * ********************************* Tepper, 16JUN2022 */
 
 
 namespace ConsoleApp1
 {
     public interface IPerson
-    {
+    {       
+        // i. first name string
         public string FirstName { get; set; }
+
+        // ii. first name string
         public string LastName { get; set; }
+
+        // iii. first name string
         public string Email { get; set; }
 
+
+        // iv. first name string
         public void PersonWrite();
 
     }

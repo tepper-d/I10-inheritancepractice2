@@ -10,33 +10,33 @@ using System.Threading.Tasks;
  * Module 10: Inheritance Assignment (Individual)
  * Dominique Tepper, 16JUN2022
  * 
- * 1. Complete the base and derived classes:
- *      a.   Person       base
- *      b/2. Student      derived
- *      c/3. Staff      derived
- *      d/4. Staff        derived
- *      e/5. Staff        derived
- * ******************************************************/
+ * 1-C/3. Complete the derived Staff Class
+ *          i. facultyID       private string
+ *         ii. use a getter and setter
+ *        iii. define 2 constructors
+ *         iv. FacultyWrite    method
+ * ********************************* Tepper, 16JUN2022 */
 
 namespace ConsoleApp1
 {
     public class Faculty : IPerson
     {
         
-        //private string
+        //i. private string
         private string facultyID;
 
-        //constructor 1
+        //iii. constructor 1
         public Faculty() { }
 
-        //constructor with 1 parameter
+        //iii. constructor with 1 parameter
         public Faculty(string facultyID)
         {
             this.facultyID = facultyID;
         }
 
 
-        //class getter & setter
+        //11. Faculty getter & setter
+        //Tepper, 16JUN2022
         public string FirstName { get; set; } = "Snoop";
         public string LastName { get; set; } = "Dog";
         public string Email { get; set; } = "snoop.dog@faculty.email.me";
