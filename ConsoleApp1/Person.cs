@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-/* ******************************************************
- * 1-A Person class properties
- *      firstName   string
- *      lastName    string
- *      email       string    
- *      Method
- *          a. PersonWrite
- * ********************************* Tepper, 16JUN2022 */
+/*********************************************************
+* CIS 123: Introduction to Object-Oriented Programming
+* Module 10: Inheritance Assignment (Individual)
+* Dominique Tepper, 16JUN2022
+* 
+* 1-A Person class properties
+*      firstName   string
+*      lastName    string
+*      email       string    
+*      Method
+*          a. PersonWrite
+* ********************************* Tepper, 16JUN2022 */
     public class Person : IPerson
     {
         public string firstName;
