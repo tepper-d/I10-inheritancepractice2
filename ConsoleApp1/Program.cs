@@ -102,4 +102,5 @@ staff2.Email = "vanjie.mateo@staff.email.me";
 staff2.StaffID = "STF852963";
 staff2.PersonWrite();
 
-Console.WriteLine("-- End of Report --");
+Console.WriteLine(" "); 
+Console.WriteLine("-------------------- End of Report --------------------");
